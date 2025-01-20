@@ -18,7 +18,7 @@ const customerReducer = (state = initialStateCustomer, action) => {
         fullName: action.payload,
       };
     default:
-      return { state };
+      return  state ;
   }
 };
 export const createCustomer = (fullName, nationalID) => {
